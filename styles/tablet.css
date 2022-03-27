@@ -1,0 +1,311 @@
+body{
+    background: #40444b;
+}
+
+p {
+    font-size:14px;
+    color:#ffffff;
+    font-weight:bold;
+    font-style:italic;
+}
+
+mark.green {
+    color:#2ecc71;
+    text-shadow: #00A300 0.1em 0.1em 0.2em;
+    background: none;
+}
+
+mark.white{
+    color: #Ffffff;
+    background: none;
+}
+
+mark.yellow{
+    color: #FEE75C;
+    background: none;
+}
+
+mark.purple{
+    color: #9b59b6;
+    background: none;
+}
+
+mark.blurple{
+    color: #5865F2;
+    background: none;
+    text-shadow: #0000FF 0.1em 0.1em 0.2em
+}
+
+.mytitle{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.mybutton1{
+    display: flex;
+    justify-content: center;    
+}
+
+.mybutton2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mybutton3{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mybutton4{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+    text-align: center;  
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 0px;
+    background-color: #fff;
+    position: relative;
+    margin: 20px;
+    transition: all 0.25s ease;
+}
+
+.btn-1{
+    color : #fff;
+    background-color: #2ecc71;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 30px;
+    gap: 10px;;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.btn-1:hover{
+    color: #000;
+    transform: translate(0, -6px);
+}
+
+
+.btn-1::after{
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    transition: all 0.25s ease;
+}
+
+.btn-2{
+    color : #fff;
+    background-color: #5865F2;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.btn-2:hover{
+    color: #000;
+    transform: translate(0, -6px);
+}
+
+.btn-2::after{
+    position: absolute;
+}
+
+
+.btn-3{
+    background: #6e5494;
+    color: #fff;
+    border-radius: 30px;
+    transition: all 0.25s ease;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.btn-3:hover{
+    color: #000;
+    transform: translate(0px, -6px);
+}
+
+.btn-3::after{
+    position: absolute;
+}
+
+.btn-4{
+    background: #FF0000;
+    color: #fff;
+    border-radius: 30px;
+    transition: all 0.25s ease;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.btn-4:hover{
+    color : #000;
+    transform: translate(0px, -6px);
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+.icon .Social-icon{
+    color : #ffffff;
+    text-decoration : none;
+    position: relative;
+    font-size: 20px;
+    padding: 0 50px;
+    vertical-align:middle; 
+    margin-top: -0.2em;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.icon .Social-icon:hover{
+    color : #ff0000;
+    box-shadow: 0 0 20px #ff0000;
+}
+
+.icon .Social-icon::after{
+    position: absolute;
+}
+
+.icon .Github{
+    color : #ffffff;
+    text-decoration : none;
+    position: relative;
+    font-size: 20px;
+    padding: 0 50px;
+    vertical-align:middle; 
+    margin-top: -0.2em;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.icon .Github:hover{
+    color : #6e5494;
+    box-shadow: 0 0 20px #6e5494;
+}
+
+.icon .Github::after{
+    position: absolute;
+}
+.icon .Discord{
+    color: #ffffff;
+    text-decoration : none;
+    position: relative;
+    font-size: 20px;
+    padding: 0 50px;
+    margin-top: -0.2em;
+    vertical-align:middle;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.icon .Discord:hover{
+    color: #5865F2;
+    box-shadow: 0 0 20px #5865F2;
+}
+
+.icon .Discord::after{
+    position: absolute;
+}
+
+.icon .Invite{
+    color : #ffffff;
+    text-decoration : none;
+    position: relative;
+    font-size: 20px;
+    padding: 0 50px;
+    vertical-align:middle; 
+    margin-top: -0.2em;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.icon .Invite:hover{
+    color : #2ecc71;
+    box-shadow: 0 0 20px #2ecc71;
+}
+
+
+
+.icon .Invite::after{
+    position: absolute;
+}
+
+.myimage img {
+    position: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.myimage .piccenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.myimage{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1000px;
+    font-family: 'Arial';
+    font-weight: bold;
+    margin-top: 20px;
+    display:block;
+}
+
+.myimage p{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+/* my button icon alignment */
+.mybutton1 svg{
+    line-height:50px;
+    vertical-align:middle;  
+    font-size: 25px;
+    margin-top: -0.325em;
+}
+
+.mybutton2 svg{
+    line-height:20px;
+    vertical-align:middle;  
+    font-size: 25px;
+    margin-top: -0.275em
+}
+
+.mybutton3 svg{
+    line-height:10px;
+    vertical-align:middle;  
+    font-size: 25px;
+    margin-top: -0.35em
+}
+
+.mybutton4 svg{
+    line-height:20px;
+    vertical-align:middle;  
+    font-size: 25px;
+    margin-top: -0.125em
+}
